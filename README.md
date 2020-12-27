@@ -39,7 +39,7 @@ I crated an index in mongodb to get an "duplicate" error for testing. When I exe
 ```
 
 ## Mongo Document Example
-This is the example row of **homedepot** table:
+This is the scrape result fo **ttps://www.homedepot.com/p/Godinger-77-Piece-Stainless-Steel-Flatware-Set-43009/307532424** from mongo table.
 
 ```
 {
