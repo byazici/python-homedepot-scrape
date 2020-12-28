@@ -3,13 +3,26 @@
 This code is scraping product information from https://www.homedepot.com/ and stores the data to mongodb database. 
 You can find all products' url by fething https://www.homedepot.com/sitemap/d/pip_sitemap.xml. In this code I didn't implement batch scraping. I wrote this code for learning purposes only.
 
-I used **MongoClient**, **BeautifulSoup** and  **requests** python packages.
-
 <img src="https://corporate.homedepot.com/sites/default/files/image_gallery/THD_logo.jpg" width="250" alt="logo">
 
 ## Prerequisites
 * Mongo DB 4.*
 * Python 3.9.x
+* **MongoClient**, **BeautifulSoup** and  **requests** python packages.
+
+### Instal Pip
+If you don't have **pip**. Download get-pip.py from [here](https://bootstrap.pypa.io/get-pip.py) and run this:
+
+```python get-pip.py```
+
+### Instal Packages
+Now you can install packages with using **pip**.
+```
+pip install pymongo
+pip install BeautifulSoup
+pip install requests
+
+```
 
 ## Usage:
 1. Clone the respository first:
@@ -22,6 +35,7 @@ I used **MongoClient**, **BeautifulSoup** and  **requests** python packages.
 3. I assumed that we have database named "devdb" and a table named "homedepot".
 
 You should execute scrape.py:
+
 `> python .\scrape.py`
 
 
