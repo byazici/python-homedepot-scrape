@@ -36,7 +36,7 @@ pip install requests
 
 You should execute scrape.py:
 
-`> python .\scrape.py`
+`python .\scrape.py`
 
 
 ### Success
