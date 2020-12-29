@@ -1,4 +1,4 @@
-# python-homedepot-scrape
+# Scraping Homedepot Product Page with Python
 
 This code is scraping product information from https://www.homedepot.com/ and stores the data to mongodb database. 
 You can find all products' url by fething https://www.homedepot.com/sitemap/d/pip_sitemap.xml. In this code I didn't implement batch scraping. I wrote this code for learning purposes only.
